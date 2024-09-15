@@ -6,7 +6,7 @@ export default {
     extend: {
       fontFamily: {
         heading: ['"Playfair Display"', "serif"],
-        body: ["Lato", "sans-serif"],
+        body: ["Inter", "Lato", "sans-serif"],
       },
     },
   },
