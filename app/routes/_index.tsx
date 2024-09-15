@@ -9,40 +9,67 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="font-sans p-4">
-      <h1 className="text-3xl">Welcome to Remix</h1>
-      <ul className="list-disc mt-4 pl-6 space-y-2">
-        <li>
-          <a
-            className="text-blue-700 underline visited:text-purple-900"
-            target="_blank"
-            href="https://remix.run/start/quickstart"
-            rel="noreferrer"
-          >
-            5m Quick Start
-          </a>
-        </li>
-        <li>
-          <a
-            className="text-blue-700 underline visited:text-purple-900"
-            target="_blank"
-            href="https://remix.run/start/tutorial"
-            rel="noreferrer"
-          >
-            30m Tutorial
-          </a>
-        </li>
-        <li>
-          <a
-            className="text-blue-700 underline visited:text-purple-900"
-            target="_blank"
-            href="https://remix.run/docs"
-            rel="noreferrer"
-          >
-            Remix Docs
-          </a>
-        </li>
-      </ul>
-    </div>
+    <>
+      <div className="font-sans p-20">
+        <h1 className="text-3xl font-heading">Aaron Ahn</h1>
+        <div className="font-body mt-2 text-gray-700">
+          <p className="">Full Stack Engineer</p>
+          <p className="">Kongsberg Geospatial | April 2022 - Present</p>
+
+          <p className="italic mt-2">Ocular</p>
+          <p className="italic text-xs">TypeScript | React | Redux-Saga | Docker | Postgres | Microservices</p>
+          <ul>
+            <li></li>
+          </ul>
+
+          <p className="italic mt-2">212CD CDSS</p>
+          <p className="italic text-xs">Ansible | Vagrant | Python | Pygeoapi | Docker | Typescript | React | Redux</p>
+          <ul>
+            <li></li>
+          </ul>
+
+          <p className="italic mt-2">DDS Viewer</p>
+          <p className="italic text-xs">TypeScript | React Query | React | Websockets | DDS</p>
+          <ul>
+            <li></li>
+          </ul>
+
+          <p className="italic mt-2">JSON Viewer</p>
+          <p className="italic text-xs">NodeJS | TypeScript | React | JSON | Websockets</p>
+          <ul>
+            <li></li>
+          </ul>
+        </div>
+        <hr className="my-4" />
+        <div className="font-body text-gray-700">
+          <p className="">Full Stack Engineer</p>
+          <p className="">Countable Web Productions | March 2018 - April 2022</p>
+
+          <p className="italic mt-2">Ocular</p>
+          <p className="italic text-xs">TypeScript | React | Redux-Saga | Docker | Postgres | Microservices</p>
+          <ul>
+            <li></li>
+          </ul>
+
+          <p className="italic mt-2">212CD CDSS</p>
+          <p className="italic text-xs">Ansible | Vagrant | Python | Pygeoapi | Docker | Typescript | React | Redux</p>
+          <ul>
+            <li></li>
+          </ul>
+
+          <p className="italic mt-2">DDS Viewer</p>
+          <p className="italic text-xs">TypeScript | React Query | React | Websockets | DDS</p>
+          <ul>
+            <li></li>
+          </ul>
+
+          <p className="italic mt-2">JSON Viewer</p>
+          <p className="italic text-xs">NodeJS | TypeScript | React | JSON | Websockets</p>
+          <ul>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </>
   );
 }
