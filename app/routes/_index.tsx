@@ -83,7 +83,7 @@ export default function Index() {
 
           <p className="italic mt-2">DDS Viewer</p>
           <p className="italic text-xs">
-            TypeScript | React Query | React | Websockets | DDS
+            TypeScript | React Query | React | WebSocket | DDS
           </p>
           <ul className="text-xs my-2">
             <li>
@@ -106,7 +106,7 @@ export default function Index() {
 
           <p className="italic mt-2">JSON Viewer</p>
           <p className="italic text-xs">
-            NodeJS | TypeScript | React | JSON | Websockets
+            NodeJS | TypeScript | React | JSON | WebSocket
           </p>
           <ul className="text-xs my-2">
             <li>
@@ -136,7 +136,7 @@ export default function Index() {
 
           <p className="italic mt-2">Cortico EMR Plug-In</p>
           <p className="italic text-xs">
-            TypeScript | React | Redux-Saga | Docker | Postgres | Microservices
+            Preact | Mobx | Vite | Jest | Docker | Manifest v3
           </p>
           <ul className="text-xs my-2">
             <li>
@@ -169,8 +169,7 @@ export default function Index() {
 
           <p className="italic mt-2">Cortico Website</p>
           <p className="italic text-xs">
-            Ansible | Vagrant | Python | Pygeoapi | Docker | Typescript | React
-            | Redux
+            Nuxt | Docker | Nginx | NodeJS | Strapi | Redux
           </p>
           <ul className="text-xs my-2">
             <li>
@@ -199,7 +198,7 @@ export default function Index() {
 
           <p className="italic mt-2">Rheumview</p>
           <p className="italic text-xs">
-            TypeScript | React Query | React | Websockets | DDS
+            JavaScript | Flask | TailwindCSS | React
           </p>
           <ul className="text-xs my-2">
             <li>
@@ -216,7 +215,7 @@ export default function Index() {
 
           <p className="italic mt-2">Cortico</p>
           <p className="italic text-xs">
-            TypeScript | React Query | React | Websockets | DDS
+            RiotJS | Webpack | Babel | PostCSS | Docker | Django
           </p>
           <ul className="text-xs my-2">
             <li>
@@ -253,7 +252,7 @@ export default function Index() {
           </p>
           <p className="italic mt-2">Oregon Student Aid & Joulecase</p>
           <p className="italic text-xs">
-            TypeScript | React Query | React | Websockets | DDS
+            TypeScript | React | Azure | Redux | Redux Toolkit
           </p>
           <ul className="text-xs my-2">
             <li>
@@ -276,9 +275,7 @@ export default function Index() {
           <p className="">Web developer</p>
           <p className="">Environment Canada | May 2016 - Dec 2017</p>
           <p className="italic mt-2">EC Alert Me</p>
-          <p className="italic text-xs">
-            TypeScript | React Query | React | Websockets | DDS
-          </p>
+          <p className="italic text-xs">OpenLayers | PHP | Postgis</p>
           <ul className="text-xs my-2">
             <li>
               Improved the UI of EC Alert Me, a weather alert reporting system,
