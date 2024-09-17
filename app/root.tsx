@@ -7,8 +7,10 @@ import {
 } from "@remix-run/react";
 import { LinksFunction } from "@remix-run/node";
 import stylesheet from "~/tailwind.css?url";
-import Navigation from "./components/Navigation.tsx";
+import Navigation from "./components/Navigation";
+import { useState, useEffect } from "react";
 export const links: LinksFunction = () => {
+
   return [
     { rel: "stylesheet", href: stylesheet },
 
@@ -28,6 +30,24 @@ export const links: LinksFunction = () => {
   ];
 };
 export default function App() {
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  useEffect(() => {
+    const root = document.documentElement;
+
+    if (isDarkMode) {
+      root.classList.add("dark");
+      window.localStorage.setItem("theme", "dark");
+    } else {
+      root.classList.remove("dark");
+      window.localStorage.setItem("theme", "light");
+    }
+  }, [isDarkMode]);
+
+  const handleChange = (isDarkMode: boolean) => {
+    setIsDarkMode(isDarkMode);
+  };
+
   return (
     <html lang="en">
       <head>
@@ -36,8 +56,8 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="max-w-[1280px] mx-auto">
-        <Navigation />
+      <body className="max-w-[1280px] mx-auto dark:bg-slate-900">
+        <Navigation isDarkMode={isDarkMode} onChange={handleChange} />
         <hr className="mx-4 opacity-50" />
         <Outlet />
         <ScrollRestoration />

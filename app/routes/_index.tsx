@@ -10,11 +10,11 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <>
-      <div className="font-sans py-4 px-4">
+      <div className="font-sans py-4 px-4 dark:text-white">
         <h1 className="text-xl font-heading">Professional Experience</h1>
-        <div className="font-body mt-2 text-gray-700">
-          <p className="">Full Stack Engineer</p>
-          <p className="">Kongsberg Geospatial | April 2022 - Present</p>
+        <div className="font-body mt-2 text-gray-700 dark:text-white">
+          <p className="text-inherit">Full Stack Engineer</p>
+          <p className="text-inherit">Kongsberg Geospatial | April 2022 - Present</p>
 
           <p className="italic mt-2">212CD CDSS</p>
           <p className="italic text-xs">
@@ -49,7 +49,7 @@ export default function Index() {
             </li>
           </ol>
 
-          <p className="italic mt-2">Ocular</p>
+          <p className="italic mt-2 dark:text-white">Ocular</p>
           <p className="italic text-xs">
             TypeScript | React | Redux-Saga | Docker | Postgres | Microservices
           </p>
@@ -128,7 +128,7 @@ export default function Index() {
           </ul>
         </div>
         <hr className="my-4" />
-        <div className="font-body text-gray-700">
+        <div className="font-body text-gray-700 dark:text-white">
           <p className="">Full Stack Engineer</p>
           <p className="">
             Countable Web Productions | March 2018 - April 2022
@@ -245,7 +245,7 @@ export default function Index() {
           </ul>
         </div>
         <hr className="my-4" />
-        <div className="font-body text-gray-700">
+        <div className="font-body text-gray-700 dark:text-white">
           <p className="">Full Stack Engineer</p>
           <p className="">
             Action Digital | March 2019 - April 2019, Aug 2021 - Oct 2021
@@ -271,7 +271,7 @@ export default function Index() {
           </ul>
         </div>
         <hr className="my-4" />
-        <div className="font-body text-gray-700">
+        <div className="font-body text-gray-700 dark:text-white">
           <p className="">Web developer</p>
           <p className="">Environment Canada | May 2016 - Dec 2017</p>
           <p className="italic mt-2">EC Alert Me</p>
