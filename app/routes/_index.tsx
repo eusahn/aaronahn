@@ -53,7 +53,7 @@ export default function Index() {
           <p className="italic text-xs">
             TypeScript | React | Redux-Saga | Docker | Postgres | Microservices
           </p>
-          <ul className="text-xs my-2">
+          <ul className="text-xs my-2 list-image-checkmark">
             <li>
               Developed a microservice with Prisma, PostgreSQL, and TypeScript
               to implement a new approach for cataloging mission data, enhancing
