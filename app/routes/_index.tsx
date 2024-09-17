@@ -13,7 +13,7 @@ export default function Index() {
       <div className="font-sans py-4 px-4 dark:text-white">
         <h1 className="text-xl font-heading">Professional Experience</h1>
         <div className="font-body mt-2 text-gray-700 dark:text-white">
-          <p className="text-inherit">Full Stack Engineer</p>
+          <p className="text-inherit">Software Engineer</p>
           <p className="text-inherit">Kongsberg Geospatial | April 2022 - Present</p>
 
           <p className="italic mt-2">212CD CDSS</p>
@@ -129,7 +129,7 @@ export default function Index() {
         </div>
         <hr className="my-4" />
         <div className="font-body text-gray-700 dark:text-white">
-          <p className="">Full Stack Engineer</p>
+          <p className="">Software Engineering Team Lead</p>
           <p className="">
             Countable Web Productions | March 2018 - April 2022
           </p>
@@ -246,7 +246,7 @@ export default function Index() {
         </div>
         <hr className="my-4" />
         <div className="font-body text-gray-700 dark:text-white">
-          <p className="">Full Stack Engineer</p>
+          <p className="">Software Engineer</p>
           <p className="">
             Action Digital | March 2019 - April 2019, Aug 2021 - Oct 2021
           </p>
@@ -272,7 +272,7 @@ export default function Index() {
         </div>
         <hr className="my-4" />
         <div className="font-body text-gray-700 dark:text-white">
-          <p className="">Web developer</p>
+          <p className="">Software Engineer</p>
           <p className="">Environment Canada | May 2016 - Dec 2017</p>
           <p className="italic mt-2">EC Alert Me</p>
           <p className="italic text-xs">OpenLayers | PHP | Postgis</p>
