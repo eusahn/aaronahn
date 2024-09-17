@@ -10,8 +10,8 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <>
-      <div className="font-sans p-20">
-        <h1 className="text-3xl font-heading">Aaron Ahn</h1>
+      <div className="font-sans py-4 px-4">
+        <h1 className="text-xl font-heading">Professional Experience</h1>
         <div className="font-body mt-2 text-gray-700">
           <p className="">Full Stack Engineer</p>
           <p className="">Kongsberg Geospatial | April 2022 - Present</p>

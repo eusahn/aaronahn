@@ -7,7 +7,7 @@ import {
 } from "@remix-run/react";
 import { LinksFunction } from "@remix-run/node";
 import stylesheet from "~/tailwind.css?url";
-
+import Navigation from "./components/Navigation.tsx";
 export const links: LinksFunction = () => {
   return [
     { rel: "stylesheet", href: stylesheet },
@@ -36,7 +36,9 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="max-w-[1280px] mx-auto">
+        <Navigation />
+        <hr className="mx-4 opacity-50" />
         <Outlet />
         <ScrollRestoration />
         <Scripts />
