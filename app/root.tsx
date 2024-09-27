@@ -56,7 +56,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="max-w-[1280px] mx-auto dark:bg-slate-900">
+      <body className="max-w-[1280px] mx-auto bg-gray-50 dark:bg-slate-900">
         <Navigation isDarkMode={isDarkMode} onChange={handleChange} />
         <hr className="mx-4 opacity-50" />
         <Outlet />
